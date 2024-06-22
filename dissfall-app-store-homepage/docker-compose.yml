@@ -1,7 +1,7 @@
 services:
   app_proxy:
     environment:
-      APP_HOST: dissfalls-app-store-homepage_server_1
+      APP_HOST: dissfall-app-store-homepage_server_1
       APP_PORT: 3000
 
   server:
