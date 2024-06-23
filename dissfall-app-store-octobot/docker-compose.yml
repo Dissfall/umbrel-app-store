@@ -2,7 +2,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: dissfall-app-store-octobot_server_1
-      APP_PORT: 80
+      APP_PORT: 5001
 
   server:
     image: drakkarsoftware/octobot:1.0.10
