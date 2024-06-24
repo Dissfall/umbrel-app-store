@@ -6,3 +6,6 @@ services:
 
   server:
     image: drakkarsoftware/octobot:1.0.10
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
