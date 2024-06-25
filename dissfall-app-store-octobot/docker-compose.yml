@@ -7,6 +7,9 @@ services:
   server:
     image: drakkarsoftware/octobot:1.0.10
     volumes:
-      - ${APP_DATA_DIR}/data:/octobot
+      - ${APP_DATA_DIR}/data/logs:/octobot/logs
+      - ${APP_DATA_DIR}/data/backtesting:/octobot/backtesting
+      - ${APP_DATA_DIR}/data/tentacles:/octobot/tentacles
+      - ${APP_DATA_DIR}/data/user:/octobot/user
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
