@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: dissfall-app-store-octane
+name: Octane
+category: Crypto
+version: "1.0.10"
+tagline: Customized version of OctoBot
+icon: https://yt3.ggpht.com/hf5WS5pqdLU8Iis5fQrmnvwpe78hRWLUCyKNYNyOO4cSTGSwLzLd6LKFo5HEetl9G7MyTmnHlG4=s88-c-k-c0x00ffffff-no-rj
+description: >-
+  Octane is a powerful trading bot software designed for strategy developers. Its user-friendly UI enables effortless strategy creation and customization. With broad exchange support through the ccxt library, Octane facilitates trading across multiple platforms. Leveraging advanced algorithms and machine learning, it analyzes market data for informed trading decisions. Octane's modular architecture allows customization, and comprehensive backtesting ensures strategy optimization. Emphasizing security and reliability, Octane empowers traders with advanced features and a user-centric approach.
+developer: techfreaque
+website: https://github.com/techfreaque/octane/tree/main
+dependencies: []
+repo: https://github.com/techfreaque/octane/tree/main
+support: https://github.com/techfreaque/octane/issues
+port: 5003
+gallery:
+  - https://camo.githubusercontent.com/16de973d7bcf8982a18e23c8651d78d312ac300172bfea683903a9ab308de462/68747470733a2f2f69312e7974696d672e636f6d2f76692f3854386a6f7564555a31552f687164656661756c742e6a7067
+path: ""
+defaultPassword: ""
+submitter: Dissfall
