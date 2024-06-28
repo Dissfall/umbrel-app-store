@@ -5,7 +5,9 @@ services:
       APP_PORT: 5003
 
   server:
-    image: octane:latest
+    build:
+      context: ./octane
+      dockerfile: ./octane/scripts/Dockerfile
     volumes:
       - ${APP_DATA_DIR}/data/logs:/octobot/logs
       - ${APP_DATA_DIR}/data/backtesting:/octobot/backtesting

@@ -1,0 +1,21 @@
+# Tentacles compilation requirements
+setuptools
+cython==0.29.32
+
+# async files management
+aiofiles>=0.6.0, <0.7
+
+# async http requests
+aiohttp>=3.8.1
+
+# Templating requirements
+jinja2>=3.1.2
+
+# artifact metadata
+pyyaml>=6.0
+
+# version comparison
+packaging==23.2
+
+# s3
+aioboto3==12.1.0

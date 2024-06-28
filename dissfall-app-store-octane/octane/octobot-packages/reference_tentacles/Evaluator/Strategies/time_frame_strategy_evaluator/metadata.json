@@ -1,0 +1,8 @@
+{
+  "version": "1.4.0",
+  "origin_package": "Octane-Default-Tentacles",
+  "tentacles": [
+    "TimeFrameStrategyEvaluator"
+  ],
+  "tentacles-requirements": []
+}
