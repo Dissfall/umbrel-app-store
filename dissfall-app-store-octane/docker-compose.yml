@@ -2,7 +2,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: dissfall-app-store-octane_server_1
-      APP_PORT: 5001
+      APP_PORT: 5003
 
   server:
     image: octane:latest
