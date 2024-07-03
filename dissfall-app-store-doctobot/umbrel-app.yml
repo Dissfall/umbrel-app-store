@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: dissfall-app-store-doctobot
+name: Doctobot
+category: Crypto
+version: "1.0.10"
+tagline: Crypto trading bot
+icon: https://www.octobot.cloud/opengraph-image.png
+description: >-
+  Octobot distribution
+developer: Drakkar-Software
+website: https://www.octobot.cloud
+dependencies: []
+repo: https://github.com/Drakkar-Software/OctoBot
+support: https://github.com/Drakkar-Software/OctoBot/issues
+port: 5001
+gallery:
+  - https://github.com/Drakkar-Software/OctoBot/raw/assets/ReadMeIntro.gif
+  - https://github.com/Drakkar-Software/OctoBot/raw/assets/backtesting_report.jpg
+path: ""
+defaultPassword: ""
+submitter: Dissfall
