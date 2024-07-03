@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: dissfall-app-store-reqtrade
+name: Freqtrade
+category: Crypto
+version: "2024.6"
+tagline: Crypto trading bot
+icon: https://www.freqtrade.io/en/stable/images/logo.png
+description: >-
+Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
+developer: Freqtrade
+website: https://www.freqtrade.io/
+dependencies: []
+repo: https://github.com/freqtrade/freqtrade
+support: https://github.com/freqtrade/freqtrade/issues
+port: 8084
+gallery:
+  - https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png
+path: ""
+defaultPassword: ""
+submitter: Dissfall

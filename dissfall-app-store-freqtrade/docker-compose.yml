@@ -1,0 +1,18 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: dissfall-app-store-octobot_server_1
+      APP_PORT: 8080
+
+  server:
+    image: freqtradeorg/freqtrade:2024.6
+    volumes:
+      - ${APP_DATA_DIR}/user_data:/freqtrade/user_data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    command: >
+      trade
+      --logfile /freqtrade/user_data/logs/freqtrade.log
+      --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
+      --config /freqtrade/user_data/config.json
+      --strategy SampleStrategy
