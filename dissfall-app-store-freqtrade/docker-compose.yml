@@ -1,7 +1,7 @@
 services:
   app_proxy:
     environment:
-      APP_HOST: dissfall-app-store-octobot_server_1
+      APP_HOST: dissfall-app-store-freqtrade_server_1
       APP_PORT: 8080
 
   server:
