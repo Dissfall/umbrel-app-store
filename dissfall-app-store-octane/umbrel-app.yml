@@ -12,7 +12,7 @@ website: https://github.com/techfreaque/octane/tree/main
 dependencies: []
 repo: https://github.com/techfreaque/octane/tree/main
 support: https://github.com/techfreaque/octane/issues
-port: 5003
+port: 5001
 gallery:
   - https://camo.githubusercontent.com/16de973d7bcf8982a18e23c8651d78d312ac300172bfea683903a9ab308de462/68747470733a2f2f69312e7974696d672e636f6d2f76692f3854386a6f7564555a31552f687164656661756c742e6a7067
 path: ""
