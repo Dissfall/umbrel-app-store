@@ -5,8 +5,7 @@ category: Crypto
 version: "2024.6"
 tagline: Crypto trading bot
 icon: https://www.freqtrade.io/en/stable/images/logo.png
-description: >-
-Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
+description: Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
 developer: Freqtrade
 website: https://www.freqtrade.io/
 dependencies: []
