@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: duplicati_duplicati_1
+      APP_PORT: 8200
+      PROXY_AUTH_ADD: "false"
+
+  duplicati:
+    image: linuxserver/duplicati:2.0.8
+    entrypoint:
+      [
+        "/usr/bin/duplicati-server",
+        "--webservice-port=8200",
+        "--webservice-interface=any",
+        "--webservice-password=${APP_PASSWORD}",
+        "--webservice-allowed-hostnames=*",
+      ]
+    user: "1000:1000"
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+      - ${UMBREL_ROOT}/data/storage:/umbrel
+      - /:/host
