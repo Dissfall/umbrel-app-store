@@ -4,6 +4,7 @@ name: Duplicati
 tagline: Store securely encrypted backups in the cloud
 category: files
 version: "2.0.8"
+icon: https://framerusercontent.com/images/1H5phVrhkNax04bHfhXgsC9DmM.jpg
 port: 38476
 description: >-
   Pick your own backend and store encrypted backups of your umbrel files anywhere!
