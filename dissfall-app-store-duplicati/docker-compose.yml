@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: duplicati_duplicati_1
+      APP_HOST: dissfall-app-store-duplicati_duplicati_1
       APP_PORT: 8200
       PROXY_AUTH_ADD: "false"
 
