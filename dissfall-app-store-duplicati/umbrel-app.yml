@@ -30,17 +30,13 @@ description: >-
   Simple interface and powerful controls at your fingertips.
 developer: Duplicati
 website: https://duplicati.com/
-submitter: Sharknoon
-submission: https://github.com/getumbrel/umbrel-apps/pull/1179
 repo: https://github.com/duplicati/duplicati
 support: https://forum.duplicati.com/
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-releaseNotes: ""
+  - https://private-user-images.githubusercontent.com/16149608/343954529-15de30c9-28f3-4426-b978-4dbf6825d853.png
+  - https://private-user-images.githubusercontent.com/16149608/343954553-060a9d10-7e44-4cd8-b1b3-117291acb270.png
+  - https://private-user-images.githubusercontent.com/16149608/343954563-b0827eed-eb28-4586-9967-29cacd5fd8b6.png
+  - https://private-user-images.githubusercontent.com/16149608/343954572-1a45b7d6-bac4-4b53-828f-46bf7f0d0834.png
 dependencies: []
-permissions:
-  - STORAGE_DOWNLOADS
 path: ""
 deterministicPassword: true
