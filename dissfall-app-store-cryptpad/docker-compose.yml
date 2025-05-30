@@ -1,21 +1,20 @@
 services:
-  app_proxy:
-    environment:
-      APP_HOST: dissfall-app-store-cryptpad_server_1
-      APP_PORT: 3000
-
-  server:
+  webserver:
     image: cryptpad/cryptpad:version-2025.3.0
+    user: "1000:1000"
     environment:
       - CPAD_MAIN_DOMAIN=http://cryptpad.umbrel.local
       - CPAD_SANDBOX_DOMAIN=http://cryptpads.umbrel.local
       - CPAD_CONF=/cryptpad/config/config.js
+    ports:
+      - "3000:3000"
+      - "3003:3003"
     volumes:
-      - ${UMBREL_ROOT}/data/storage/cryptpad/config:/cryptpad/config
-      - ${UMBREL_ROOT}/data/storage/cryptpad/blob:/cryptpad/blob
-      - ${UMBREL_ROOT}/data/storage/cryptpad/block:/cryptpad/block
-      - ${UMBREL_ROOT}/data/storage/cryptpad/customise:/cryptpad/customise
-      - ${UMBREL_ROOT}/data/storage/cryptpad/data:/cryptpad/data
-      - ${UMBREL_ROOT}/data/storage/cryptpad/datastore:/cryptpad/datastore
-      - ${UMBREL_ROOT}/data/storage/cryptpad/onlyoffice-dist:/cryptpad/www/common/onlyoffice/dist
-      - ${UMBREL_ROOT}/data/storage/cryptpad/onlyoffice-conf:/cryptpad/onlyoffice-conf
+      - ${APP_DATA_DIR}/data/config:/cryptpad/config
+      - ${APP_DATA_DIR}/data/blob:/cryptpad/blob
+      - ${APP_DATA_DIR}/data/block:/cryptpad/block
+      - ${APP_DATA_DIR}/data/customise:/cryptpad/customise
+      - ${APP_DATA_DIR}/data/data:/cryptpad/data
+      - ${APP_DATA_DIR}/data/datastore:/cryptpad/datastore
+      - ${APP_DATA_DIR}/data/onlyoffice-dist:/cryptpad/www/common/onlyoffice/dist
+      - ${APP_DATA_DIR}/data/onlyoffice-conf:/cryptpad/onlyoffice-conf
